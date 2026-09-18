@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "topic": "soil_carbon",
+    "conditions": ["low organic carbon", "degraded soil", "monoculture"],
+    "recommendation": "Introduce legume-based cover crops and reduce periods of bare soil.",
+    "reasoning": "Continuous plant cover and legume biomass can increase organic matter inputs, support soil microbial communities and improve nutrient cycling.",
+    "metrics": ["soil organic carbon", "microbial diversity", "soil fertility"],
+    "time_horizon": "medium to long term",
+    "source": "FAO - Soil Organic Carbon"
+  },
+  {
+    "id": 2,
+    "topic": "semi_arid_agriculture",
+    "conditions": ["low rainfall", "semi-arid", "monoculture", "low soil carbon"],
+    "recommendation": "Introduce agroforestry and drought-tolerant intercropping.",
+    "reasoning": "Combining trees with crops can improve habitat diversity, reduce erosion, increase biomass inputs and improve resilience to water stress.",
+    "metrics": ["species richness", "soil organic carbon", "soil moisture", "habitat diversity"],
+    "time_horizon": "medium to long term",
+    "source": "FAO - Agroforestry"
+  },
+  {
+    "id": 3,
+    "topic": "water_management",
+    "conditions": ["low rainfall", "water stress", "dry soil"],
+    "recommendation": "Use mulching, rainwater harvesting and vegetation buffers.",
+    "reasoning": "Reducing exposed soil decreases evaporation and erosion while water harvesting increases local water availability for vegetation.",
+    "metrics": ["soil moisture", "erosion", "vegetation survival"],
+    "time_horizon": "short to medium term",
+    "source": "FAO - Sustainable Land and Water Management"
+  },
+  {
+    "id": 4,
+    "topic": "habitat_fragmentation",
+    "conditions": ["deforestation", "fragmented habitat", "low species richness"],
+    "recommendation": "Restore native vegetation corridors between isolated habitat patches.",
+    "reasoning": "Ecological corridors improve habitat connectivity and can support movement, dispersal and gene flow between wildlife populations.",
+    "metrics": ["habitat connectivity", "species richness", "habitat diversity"],
+    "time_horizon": "medium to long term",
+    "source": "IPBES - Global Assessment Report"
+  },
+  {
+    "id": 5,
+    "topic": "pollution",
+    "conditions": ["pollution", "biodiversity decline", "water contamination"],
+    "recommendation": "Establish vegetated buffer zones and reduce pollutant runoff entering natural habitats.",
+    "reasoning": "Vegetated buffers can intercept sediments and nutrients before they reach aquatic and terrestrial ecosystems.",
+    "metrics": ["water quality", "habitat quality", "species survival"],
+    "time_horizon": "short to medium term",
+    "source": "UNEP - Ecosystem Restoration Guidance"
+  },
+  {
+    "id": 6,
+    "topic": "climate_resilience",
+    "conditions": ["high temperature", "irregular rainfall", "climate stress"],
+    "recommendation": "Increase native vegetation diversity and maintain continuous soil cover.",
+    "reasoning": "More diverse vegetation can increase ecosystem resilience by distributing climate risk across species with different ecological tolerances.",
+    "metrics": ["species richness", "soil moisture", "ecosystem resilience"],
+    "time_horizon": "medium to long term",
+    "source": "IPCC - Climate Change and Land"
+  }
+]
