@@ -1,62 +1,137 @@
 [
   {
     "id": 1,
-    "topic": "soil_carbon",
-    "conditions": ["low organic carbon", "degraded soil", "monoculture"],
-    "recommendation": "Introduce legume-based cover crops and reduce periods of bare soil.",
-    "reasoning": "Continuous plant cover and legume biomass can increase organic matter inputs, support soil microbial communities and improve nutrient cycling.",
-    "metrics": ["soil organic carbon", "microbial diversity", "soil fertility"],
+    "topic": "soil_carbon_and_cover_crops",
+    "conditions": [
+      "low organic carbon",
+      "degraded soil",
+      "monoculture",
+      "bare soil"
+    ],
+    "recommendation": "Introduce diverse cover crops, including legumes where locally appropriate, and minimize periods of bare soil.",
+    "reasoning": "Low soil organic carbon combined with monoculture can reduce soil resilience. Maintaining organic soil cover adds organic matter, supports nutrient cycling, improves soil structure and increases agro-ecosystem biodiversity.",
+    "metrics": [
+      "soil organic carbon",
+      "soil structure",
+      "nutrient cycling",
+      "agroecosystem biodiversity"
+    ],
     "time_horizon": "medium to long term",
-    "source": "FAO - Soil Organic Carbon"
+    "source": "FAO - Soil Organic Cover",
+    "source_url": "https://www.fao.org/conservation-agriculture/in-practice/soil-organic-cover/en/",
+    "evidence": "FAO identifies soil cover and cover crops as useful for protecting soil, adding organic matter, improving soil structure, recycling nutrients and increasing biodiversity."
   },
   {
     "id": 2,
-    "topic": "semi_arid_agriculture",
-    "conditions": ["low rainfall", "semi-arid", "monoculture", "low soil carbon"],
-    "recommendation": "Introduce agroforestry and drought-tolerant intercropping.",
-    "reasoning": "Combining trees with crops can improve habitat diversity, reduce erosion, increase biomass inputs and improve resilience to water stress.",
-    "metrics": ["species richness", "soil organic carbon", "soil moisture", "habitat diversity"],
+    "topic": "semi_arid_agroforestry",
+    "conditions": [
+      "low rainfall",
+      "semi-arid",
+      "monoculture",
+      "low organic carbon",
+      "degraded land"
+    ],
+    "recommendation": "Introduce appropriately designed agroforestry together with drought-tolerant crop diversification or intercropping.",
+    "reasoning": "In a semi-arid monoculture system, low rainfall creates water stress while low soil carbon reduces soil resilience. Integrating suitable trees and diverse crops can improve soil health, water management, habitat diversity and resilience while reducing erosion.",
+    "metrics": [
+      "soil organic carbon",
+      "soil health",
+      "water regulation",
+      "habitat diversity",
+      "erosion risk"
+    ],
     "time_horizon": "medium to long term",
-    "source": "FAO - Agroforestry"
+    "source": "FAO - Agroforestry",
+    "source_url": "https://www.fao.org/agroforestry/en",
+    "evidence": "FAO reports that well-designed agroforestry can improve soil health and water management, enhance farm biodiversity, reduce erosion and help restore degraded land."
   },
   {
     "id": 3,
-    "topic": "water_management",
-    "conditions": ["low rainfall", "water stress", "dry soil"],
-    "recommendation": "Use mulching, rainwater harvesting and vegetation buffers.",
-    "reasoning": "Reducing exposed soil decreases evaporation and erosion while water harvesting increases local water availability for vegetation.",
-    "metrics": ["soil moisture", "erosion", "vegetation survival"],
-    "time_horizon": "short to medium term",
-    "source": "FAO - Sustainable Land and Water Management"
+    "topic": "land_degradation_climate",
+    "conditions": [
+      "soil erosion",
+      "nutrient loss",
+      "climate stress",
+      "low soil carbon",
+      "degraded land"
+    ],
+    "recommendation": "Maintain ground cover using cover crops or crop residues and combine this with locally appropriate sustainable land-management practices.",
+    "reasoning": "Exposed degraded soils are vulnerable to erosion and nutrient loss. Maintaining vegetation or residue cover protects the soil surface, while practices such as agroforestry can provide additional soil-carbon and erosion-control benefits.",
+    "metrics": [
+      "soil erosion",
+      "nutrient retention",
+      "soil organic carbon",
+      "land resilience"
+    ],
+    "time_horizon": "short to long term",
+    "source": "IPCC - Special Report on Climate Change and Land",
+    "source_url": "https://www.ipcc.ch/srccl/chapter/summary-for-policymakers/",
+    "evidence": "IPCC identifies cover crops, crop-residue retention and maintenance of ground cover as options for reducing vulnerability to erosion and nutrient loss, and reports that agroforestry can reduce erosion and nutrient leaching while building soil carbon."
   },
   {
     "id": 4,
-    "topic": "habitat_fragmentation",
-    "conditions": ["deforestation", "fragmented habitat", "low species richness"],
-    "recommendation": "Restore native vegetation corridors between isolated habitat patches.",
-    "reasoning": "Ecological corridors improve habitat connectivity and can support movement, dispersal and gene flow between wildlife populations.",
-    "metrics": ["habitat connectivity", "species richness", "habitat diversity"],
-    "time_horizon": "medium to long term",
-    "source": "IPBES - Global Assessment Report"
+    "topic": "water_stress",
+    "conditions": [
+      "low rainfall",
+      "water stress",
+      "dry soil",
+      "high temperature"
+    ],
+    "recommendation": "Maintain soil cover and integrate locally appropriate perennial vegetation or agroforestry where water availability and species selection permit.",
+    "reasoning": "Water stress interacts with vegetation cover and soil condition. Ground cover can protect the soil surface, while appropriately designed tree-crop systems can improve water management and microclimatic conditions.",
+    "metrics": [
+      "soil moisture resilience",
+      "water management",
+      "soil erosion",
+      "vegetation resilience"
+    ],
+    "time_horizon": "short to long term",
+    "source": "FAO - Agroforestry",
+    "source_url": "https://www.fao.org/agroforestry/about-agroforestry/faqs/",
+    "evidence": "FAO identifies improved water management, reduced erosion, improved microclimates and greater resilience to environmental shocks among potential benefits of appropriately designed agroforestry."
   },
   {
     "id": 5,
-    "topic": "pollution",
-    "conditions": ["pollution", "biodiversity decline", "water contamination"],
-    "recommendation": "Establish vegetated buffer zones and reduce pollutant runoff entering natural habitats.",
-    "reasoning": "Vegetated buffers can intercept sediments and nutrients before they reach aquatic and terrestrial ecosystems.",
-    "metrics": ["water quality", "habitat quality", "species survival"],
-    "time_horizon": "short to medium term",
-    "source": "UNEP - Ecosystem Restoration Guidance"
+    "topic": "habitat_connectivity",
+    "conditions": [
+      "fragmented habitat",
+      "deforestation",
+      "low species richness",
+      "isolated habitat"
+    ],
+    "recommendation": "Restore native vegetation and increase ecological connectivity between remaining habitat patches while protecting existing natural habitat.",
+    "reasoning": "Habitat loss and fragmentation reduce the amount and connectivity of suitable habitat. Increasing native vegetation and landscape connectivity can create more usable habitat and support biodiversity across agricultural landscapes.",
+    "metrics": [
+      "habitat connectivity",
+      "species richness",
+      "habitat diversity",
+      "landscape resilience"
+    ],
+    "time_horizon": "medium to long term",
+    "source": "FAO - Agroforestry and Landscape Connectivity",
+    "source_url": "https://www.fao.org/americas/priorities/agricultura-sostenible/agrofesteria/8.-from-the-farm-to-the-landscape/en",
+    "evidence": "FAO notes that agroforestry and diversified landscapes can provide biodiversity benefits through greater ecological connectivity, water regulation and landscape resilience."
   },
   {
     "id": 6,
     "topic": "climate_resilience",
-    "conditions": ["high temperature", "irregular rainfall", "climate stress"],
-    "recommendation": "Increase native vegetation diversity and maintain continuous soil cover.",
-    "reasoning": "More diverse vegetation can increase ecosystem resilience by distributing climate risk across species with different ecological tolerances.",
-    "metrics": ["species richness", "soil moisture", "ecosystem resilience"],
+    "conditions": [
+      "high temperature",
+      "irregular rainfall",
+      "drought",
+      "climate stress"
+    ],
+    "recommendation": "Increase appropriately selected vegetation diversity and combine soil-cover practices with agroforestry or other sustainable land-management approaches suited to local conditions.",
+    "reasoning": "Climate stress, soil degradation and land management interact. Increasing vegetation cover and diversity can reduce exposure of degraded soil, while agroforestry and improved land management can contribute to adaptation, soil-carbon improvement and ecosystem resilience.",
+    "metrics": [
+      "ecosystem resilience",
+      "soil organic carbon",
+      "erosion risk",
+      "vegetation diversity"
+    ],
     "time_horizon": "medium to long term",
-    "source": "IPCC - Climate Change and Land"
+    "source": "IPCC - Climate Change and Land",
+    "source_url": "https://www.ipcc.ch/srccl/",
+    "evidence": "IPCC identifies agroforestry, improved cropland management and increased soil organic carbon among land-response options with benefits across multiple land challenges."
   }
 ]
